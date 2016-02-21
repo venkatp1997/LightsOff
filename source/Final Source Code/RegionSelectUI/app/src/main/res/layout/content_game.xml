@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/abcd"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/knot"
+        android:background="#00FFFFFF"
+        android:id="@+id/diagram"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/knot2"
+        android:background="#00FFFFFF"
+        android:id="@+id/diagram1"/>
+</FrameLayout>
